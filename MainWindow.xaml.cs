@@ -29,6 +29,7 @@ namespace pr53savichev
         public MainWindow()
         {
             InitializeComponent();
+            OpenPages(pages.main);
         }
         public void OpenPages(pages _pages)
         {
